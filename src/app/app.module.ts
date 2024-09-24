@@ -9,7 +9,6 @@ import {LoginComponent} from "./components/login/login.component";
 import {LandingPageComponent} from "./components/landing-page/landing-page.component";
 import {SignupComponent} from "./components/signup/signup.component";
 
-
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   {path: 'landing-page', component: LandingPageComponent},
@@ -40,7 +39,6 @@ const routes: Routes = [
 
   bootstrap: [
     AppComponent]
-
 })
 
 export class AppModule {}
